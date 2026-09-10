@@ -1,0 +1,23 @@
+# Local Python environment
+.venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Notebook-generated state
+.ipynb_checkpoints/
+notebooks/vava_insights.ipynb
+
+# Local secrets and tooling
+.env
+.vscode/
+
+# Generated/private player data
+data/raw/
+data/processed/
+data/curated/
+reports/
